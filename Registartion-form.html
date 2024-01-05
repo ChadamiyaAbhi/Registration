@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Registartion-form.css">
+   
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="wrap">
+
+            <div class="content">
+                <h2 class="company-name"><i class='bx bx-sun'></i>Sun<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ampersand"><path d="M17.5 12c0 4.4-3.6 8-8 8A4.5 4.5 0 0 1 5 15.5c0-6 8-4 8-8.5a3 3 0 1 0-6 0c0 3 2.5 8.5 12 13"/><path d="M16 12h3"/></svg>Sand</h2>
+
+                <div class="heading-content">
+                    <h1>Welcome! To Sun&Sand Holidays</h1>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deleniti.</p>
+                <br>
+                <div class="social-links">
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="register">
+                <form id="registrationForm">
+                    <h1>REGISTER</h1>
+
+                    <div class="input_box">
+                        <input type="text" name="username" id="username" placeholder="Username"><i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" name="password" id="password" placeholder="Password"><i class='bx bxs-lock'></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="email" id="email" placeholder="Email"><i class='bx bx-envelope'></i></i>
+                    </div>
+
+                    <div class="remember_forget">
+                        <label for=""> <input type="checkbox" name="rememberme" id="rememberme">Remember me</label>
+                    </div>
+                    <div class="btn">
+                        <button class="btn" type="button" onclick="validateForm()">Register<i class='bx bx-log-in'></i></button>
+                    </div>
+
+                </form>
+            </div> <!--registration-->
+        </div> <!--wrap end-->
+    </div> <!-- container end-->
+
+</body>
+<script src="Registartion-form.js" defer></script>
+</html>
